@@ -1,0 +1,14 @@
+@mixin title-big{
+    font-size: 50px;
+    color: gold;
+}
+
+@mixin floating{
+    border-color: #A5CBF5 ;
+    border-radius: 25px; 
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+@mixin floatingStrange($red,$green,$blue){
+    box-shadow: rgba($red,$green,$blue, 0.2) 0px 60px 40px -7px;
+}

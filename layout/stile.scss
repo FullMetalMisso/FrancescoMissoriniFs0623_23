@@ -1,0 +1,56 @@
+ @import "reset";
+ @import "colori";
+ @import "font";
+ @import "bottoni";
+ @import "spacing";
+ @import "mixins";
+ 
+a{
+ text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav{
+    flex-basis: 15%;
+}
+header img{
+    width: 100px;
+    height: auto;
+}
+header a{
+    padding: $basePadding;
+}
+body{
+    font-family: $font;
+    font-size: $dimensionBaseFont;
+    color: $coloreTesto;
+    margin: $baseMargin;
+ }
+
+.bg_hero {
+ @include floating;
+background-color: $bg_heroColor;
+display: flex;
+margin-bottom: 5%;
+ }
+.bg_hero img{
+    border-radius: 0% 2% 2% 0%;
+}
+.bg_hero p:nth-child(1){
+@include title-big;
+}
+
+.cin {
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cin img{
+    @include floatingStrange(25,50,150);
+    width: 25%;
+    height: auto;
+}
