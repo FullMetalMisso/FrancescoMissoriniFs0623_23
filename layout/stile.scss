@@ -16,6 +16,7 @@ header{
 header nav{
     flex-basis: 15%;
 }
+
 header img{
     width: 100px;
     height: auto;
@@ -31,7 +32,7 @@ body{
  }
 
 .bg_hero {
- @include floating;
+@include floating;
 background-color: $bg_heroColor;
 display: flex;
 margin-bottom: 5%;
@@ -42,7 +43,13 @@ margin-bottom: 5%;
 .bg_hero p:nth-child(1){
 @include title-big;
 }
+.bg_hero p {
+    margin: 15%;
+}
 
+.button{
+    margin-left:145px ;;
+}
 .cin {
     margin-bottom: 5%;
     display: flex;
@@ -53,4 +60,18 @@ margin-bottom: 5%;
     @include floatingStrange(25,50,150);
     width: 25%;
     height: auto;
+}
+
+.button1{
+background-color: $blueBtn;
+border-radius: $bottonRadius;
+}
+
+.button2{
+background-color: $orangeBtn;
+border-radius: $bottonRadius;
+}
+.button3{
+background-color: $greenBtn;
+border-radius: $bottonRadius;
 }

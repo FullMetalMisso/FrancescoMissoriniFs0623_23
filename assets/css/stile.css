@@ -82,6 +82,14 @@ body {
   color: gold;
 }
 
+.bg_hero p {
+  margin: 15%;
+}
+
+.button {
+  margin-left: 145px;
+}
+
 .cin {
   margin-bottom: 5%;
   display: flex;
@@ -92,4 +100,19 @@ body {
   box-shadow: rgba(25, 50, 150, 0.2) 0px 60px 40px -7px;
   width: 25%;
   height: auto;
+}
+
+.button1 {
+  background-color: #0e6cff;
+  border-radius: 15px;
+}
+
+.button2 {
+  background-color: #ff8700;
+  border-radius: 15px;
+}
+
+.button3 {
+  background-color: #4caf50;
+  border-radius: 15px;
 }/*# sourceMappingURL=stile.css.map */
